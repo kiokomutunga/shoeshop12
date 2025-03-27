@@ -1,0 +1,179 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+.header {
+  display: flex; /* Allows items to align horizontally */
+  justify-content: space-between; /* Pushes the logo left and nav right */
+  align-items: center; /* Vertically center aligns items */
+  padding: 20px; /* Adds padding around the header */
+  background-color: #f8f9fa; /* Light gray background */
+  border-bottom: 1px solid #e0e0e0; /* Subtle border at the bottom */
+}
+
+/* Logo Styling */
+.logo {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Dark gray text */
+}
+
+/* Navigation Styling */
+.nav {
+  list-style: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Makes items display horizontally */
+  gap: 20px; /* Adds spacing between navigation items */
+}
+
+.nav li {
+  margin: 0; /* Removes default margin */
+}
+
+.nav a {
+  text-decoration: none; /* Removes underline */
+  color: #007BFF; /* Blue link color */
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 12px; /* Adds padding around the links */
+  border-radius: 4px; /* Makes the edges slightly rounded */
+  transition: background-color 0.3s, color 0.3s; /* Adds hover animation */
+}
+
+.nav a:hover {
+  background-color: #007BFF; /* Blue background on hover */
+  color: white; /* White text on hover */
+}
+
+/* Reset and global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Shop Section */
+.shop {
+  display: grid; /* Use Grid for layout */
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+}
+
+/* Card Styling */
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Card Image */
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Card Content */
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.card-content p {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+/* Button */
+.btn {
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .shop {
+    grid-template-columns: repeat(2, 1fr); /* Two items per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .shop {
+    grid-template-columns: 1fr; /* One item per row */
+  }
+}
+
+
+.footer {
+  background-color: #f9f9f9; /* Light gray background */
+  color: #333; /* Dark text color */
+  text-align: center;
+  padding: 20px 10px;
+  border-top: 1px solid #ddd; /* Subtle border */
+  font-family: Arial, sans-serif;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.footer-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  margin: 10px 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a img {
+  width: 24px; /* Icon size */
+  height: 24px;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+.footer-timestamp {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+
+
